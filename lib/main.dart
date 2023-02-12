@@ -18,13 +18,11 @@ return MaterialApp(
 title: 'تسبيح',
 debugShowCheckedModeBanner: false,
 theme: ThemeData(
-primarySwatch: Colors.blue,
-textTheme: GoogleFonts.cairoTextTheme(Theme.of(context).textTheme)
-),
+//primarySwatch: Colors.blue,
+textTheme: GoogleFonts.oswaldTextTheme(Theme.of(context).textTheme) ),
 home:SplashScreen(),
 
 
-//home: HomeScreen(),
 );
 }
 }
